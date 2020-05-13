@@ -47,6 +47,7 @@ INTEGRANTES
 
 Catalina Gelabert Bengtsson
 Estudiante de Periodismo. No tiene experiencia previa en el area de sistemas ni diseño.
+
 Renzo Irusta
 
 34 años.
