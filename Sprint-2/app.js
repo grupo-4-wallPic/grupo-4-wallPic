@@ -1,18 +1,17 @@
-const createError = require('http-errors');
-const cookieParser = require('cookie-parser');
+
 const express = require('express');
-const logger = require('morgan');
 const path = require('path');
-const session = require('express-session')
+
+const homeRoutes = require('./routes/homeRoutes')
 
 const app = express();
 
+app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));  
-app.use(express.urlencoded({ extended: false }));
-app.use(logger('dev'));
-app.use(express.json());
-app.use(cookieParser());
+
+app.listen(3000, () => console.log('running on 3000'));
+
+app.use('/', homeRoutes);
 
 
-
-module.exports = app;
+// module.exports = app;

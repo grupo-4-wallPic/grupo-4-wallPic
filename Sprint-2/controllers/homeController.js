@@ -1,8 +1,7 @@
-const express = require ('express');
-const app = express ();
+module.exports = {
 
-
-
-
-
-module.exports = homeController;
+    main: (req, res) => {
+        return res.render('index')
+    }
+    
+}
