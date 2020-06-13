@@ -23,13 +23,13 @@
     justify-content: inherit;
 }
 
-/* Body */
+/*** Body ***/
 
 body {
     background: var(--light-grey);
 }
 
-/* Header */
+/*** Header ***/
 
 header {
     display: grid;
@@ -84,7 +84,7 @@ header {
     cursor: pointer;
 }
 
-/* Last-section */
+/*** Last-section ***/
 
 .last-miscellaneous {
     color: white;
@@ -125,7 +125,7 @@ header {
     cursor: pointer;
 }
 
-/* Footer */
+/*** Footer ***/
 
 footer {
     text-align: center;
@@ -136,11 +136,11 @@ footer {
     color: white;
 }
 
-/* Media Querys */
+/*** Media Querys ***/
 
 @media screen and (min-width: 320px) {
 
-    /* Header */
+    /*** Header ***/
 
     .logo a {
         max-width: 5em;
@@ -150,7 +150,7 @@ footer {
 
 @media screen and (min-width: 769px) {
     
-    /* Header */
+    /*** Header ***/
     .logo {
         padding: .5em;
     }
@@ -212,7 +212,7 @@ footer {
         border: 1px solid black;
     }
 
-    /* Last-section */
+    /*** Last-section ***/
 
     .last-miscellaneous {
         display: flex;
