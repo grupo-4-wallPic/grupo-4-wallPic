@@ -49,7 +49,7 @@ header {
     display: none;
 }
 
-.btnsCont {
+.header-btns-container {
     display: none;
 }
 
@@ -190,16 +190,22 @@ footer {
         justify-content: space-evenly;
     }
 
-    .btnsCont {
+    .header-btns-container {
         display: block;
         font-size: 16px;
     }
 
-    .btn {
+    .header-btn {
         border: 2px solid black;
         background: white;
         padding: 4px;
         border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .header-btn:hover {
+        background: black;
+        color: white;
     }
 
     .btns-line {
