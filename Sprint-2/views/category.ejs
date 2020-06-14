@@ -9,20 +9,26 @@
 <body>
     <div class="contenedor">
         <%- include('./partials/header') %>
-        <div>
-            <h2 class='categoria'>Animales</h2>
+        <div class='categoria'>
+            <h2>Animales</h2>
         </div>
+        <div class='todo'>
         <% animales.forEach(product => { %>
-            <div class='categorias'>
-                
-                <img src=<%= product.Image %> alt= <%= product.name %> class='imagen'>
-                <h3 class='nombre'> <%= product.name %> </h3>
-                <p class='descripcion'><%= product.Description %> </p>
-                <p class='precio'><%= product.Price %> </p>
-                
-            </div>
+            <div class="prod">
+				<section class="product">
+					<a class="link" href="/products/detail/<%= product.id %>">
+						<figure class="image">
+							<img src="<%= product.image %>" alt="imagen de <%= product.name %>">
+                        </figure>
+						<article class="product-box">
+                            <h2 class="nombre"><%= product.name %> </h2>
+							<p class="precio"> <%= product.price %> </p>
+                        </article>
+                    </a>
+				</section>
+			</div>
         <% }); %> 
-
+        </div>
 
         <%- include('./partials/footer') %>  
     </div>

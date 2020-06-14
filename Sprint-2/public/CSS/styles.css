@@ -117,6 +117,55 @@ header {
     margin-top: 10px;
 }
 
+/* Categorias */
+.todo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.product {
+    display: flex;
+}
+
+.prod {
+    width: 300px;
+}
+
+.product a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.product-box {
+    display: none;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-around;
+}
+
+.image img{
+    width: 400px;
+}
+
+ .nombre {
+    font-family: var(--primary-font);
+
+ }
+
+ .precio {
+    font-family: var(--secundary-font);
+ }
 
 /* Footer */
 .btn-news {

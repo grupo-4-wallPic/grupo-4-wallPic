@@ -5,7 +5,7 @@ const methodOverride = require('method-override')
 
 const homeRoutes = require('./routes/homeRoutes');
 const categoryRoutes = require ('./routes/categoryRoutes');
-//const productRoutes = require ('./routes/productRoutes')
+const productRoutes = require ('./routes/productRoutes')
 
 const app = express();
 
@@ -16,8 +16,8 @@ app.use( methodOverride('_method'))
 app.listen(3030, () => console.log('running on 3000'));
 
 app.use('/', homeRoutes);
-app.use('/products/category', categoryRoutes);
-//app.use('/products/detail/:id', productRoutes);
+app.use('/category', categoryRoutes);
+app.use('/products', productRoutes);
 
 
 // module.exports = app;

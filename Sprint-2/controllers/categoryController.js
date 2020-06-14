@@ -4,7 +4,6 @@ const leerJson = fs.readFileSync('productsWallpicDataBase.json', {encoding: 'utf
 const products = JSON.parse (leerJson);
 
 module.exports = {
-
     index: (req, res) => {
         let animales = products.filter (function (product) {
             return product.category == 'Animales'
