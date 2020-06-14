@@ -10,7 +10,7 @@ module.exports = {
             return product.category == 'Animales'
         })
 
-        return res.render('categories', {animales})
+        return res.render('category', {animales})
     }
     
 }

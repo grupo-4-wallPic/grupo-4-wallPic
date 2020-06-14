@@ -19,15 +19,23 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
 }
 
-/* Header */
+/*** Body ***/
+
+body {
+    background: var(--light-grey);
+}
+
+/*** Header ***/
 
 header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
-    background: var(--light-grey);
+    /* background: var(--light-grey); */
     font-family: var(--primary-font);
     font-size: 20px;
 }
@@ -41,7 +49,7 @@ header {
     display: none;
 }
 
-.btnsCont {
+.header-btns-container {
     display: none;
 }
 
@@ -67,14 +75,16 @@ header {
 .nav-search-btn {
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 
 .burger-menu,
 .cart {
     text-align: center;
+    cursor: pointer;
 }
 
-/* Last-section */
+/*** Last-section ***/
 
 .last-miscellaneous {
     color: white;
@@ -107,19 +117,17 @@ header {
     margin-top: 10px;
 }
 
-/* Categorias */
-
-.contenedor {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.categoria {
-    font-family: var(--primary-font);
-}
 
 /* Footer */
+.btn-news {
+    padding: 0;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/*** Footer ***/
 
 footer {
     text-align: center;
@@ -130,11 +138,11 @@ footer {
     color: white;
 }
 
-/* Media Querys */
+/*** Media Querys ***/
 
 @media screen and (min-width: 320px) {
 
-    /* Header */
+    /*** Header ***/
 
     .logo a {
         max-width: 5em;
@@ -144,7 +152,7 @@ footer {
 
 @media screen and (min-width: 769px) {
     
-    /* Header */
+    /*** Header ***/
     .logo {
         padding: .5em;
     }
@@ -184,23 +192,29 @@ footer {
         justify-content: space-evenly;
     }
 
-    .btnsCont {
+    .header-btns-container {
         display: block;
         font-size: 16px;
     }
 
-    .btn {
+    .header-btn {
         border: 2px solid black;
         background: white;
         padding: 4px;
         border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .header-btn:hover {
+        background: black;
+        color: white;
     }
 
     .btns-line {
         border: 1px solid black;
     }
 
-    /* Last-section */
+    /*** Last-section ***/
 
     .last-miscellaneous {
         display: flex;
