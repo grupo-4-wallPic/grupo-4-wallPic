@@ -96,7 +96,7 @@ header {
 }
 
     .modal {
-        display: none;
+        /* display: none; */
         position: fixed;
         z-index: 1;
         overflow: auto;
@@ -176,13 +176,11 @@ header {
         width: 75%;
     }
     .emaildiv{
-        padding-bottom: 3px;
         width: 30%;
         display: flex;
     }
 
     .passworddiv {
-        padding-bottom: 3px;
         width: 30%;
         margin-top: 2%;
         display: flex;
@@ -219,7 +217,7 @@ header {
 .loginbutton {
     width: 38%;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: medium;
     border: 2px solid black;
     border-radius: 30px;
@@ -246,6 +244,39 @@ header {
 .redirectregister:hover{
     text-decoration: underline;
     color: black;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+.register label, .register input{
+    text-align: initial;
+    margin: 3px 0;
+}
+
+.register, .login i{
+    margin-top: 3px;
+   margin-left: 3px;
+}
+
+.register p{
+    width: 90%;
+}
+
+.checkboxnews {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    width: 10%;
+    height: 25px;
+    margin-top: 10%;
+}
+ .checkboxnews p {
+    margin: auto;
 }
 /*** Last-section ***/
 
