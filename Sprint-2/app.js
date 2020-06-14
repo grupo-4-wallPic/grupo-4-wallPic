@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));  
 app.use( methodOverride('_method'))
 
-app.listen(3030, () => console.log('running on 3000'));
+app.listen(3030, () => console.log('running on 3030'));
 
 app.use('/', homeRoutes);
 app.use('/category', categoryRoutes);
