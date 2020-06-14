@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+   <!-- Normalize -->
+   <link rel="stylesheet" href="../public/CSS/normalize.css">
+   <link rel="stylesheet" href="../public/CSS/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <%- include('./partials/header') %>
+        <div>
+            <h2 class='categoria'>Animales</h2>
+        </div>
+        <% animales.forEach(product => { %>
+            <div class='categorias'>
+                
+                <img src=<%= product.Image %> alt= <%= product.name %> class='imagen'>
+                <h3 class='nombre'> <%= product.name %> </h3>
+                <p class='descripcion'><%= product.Description %> </p>
+                <p class='precio'><%= product.Price %> </p>
+                
+            </div>
+        <% }); %> 
+
+
+        <%- include('./partials/footer') %>  
+    </div>
+</body>
+</html>

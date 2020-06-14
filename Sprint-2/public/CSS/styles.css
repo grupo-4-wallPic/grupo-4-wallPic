@@ -107,6 +107,18 @@ header {
     margin-top: 10px;
 }
 
+/* Categorias */
+
+.contenedor {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.categoria {
+    font-family: var(--primary-font);
+}
+
 /* Footer */
 
 footer {
