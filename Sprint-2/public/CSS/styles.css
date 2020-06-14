@@ -83,6 +83,157 @@ header {
     text-align: center;
     cursor: pointer;
 }
+.loginbtn {
+    
+        border: 2px solid black;
+        background: white;
+        padding: 4px;
+        border-radius: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+
+}
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5) ;
+    
+    }
+    .contenido-modal{
+        position: relative;
+        background-color: white;
+        margin: auto;
+        width: 35%;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+        animation-name: modal;
+        animation-duration: 1s;
+        margin-top: 20%;
+        border-radius: 25px;
+    }
+    @keyframes modal {
+        from{top: -330px; opacity: 0;}
+        to {top: 0; opacity: 1;}
+    }
+    .close{
+        color:black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .close:hover{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .modal-header{
+        padding: 8px 16px;
+        color:black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-radius: 25px 25px 0 0;
+    }
+    .modal-header-div{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding-left: 25%;
+        margin-top: 10%;
+        color: var(--strong-grey);
+    }
+    .modal-heading{
+        margin-top: inherit;
+        font-size: 22px;
+    }
+
+    .logomodalcont {
+        width: 40%;
+        padding-left: 2%;
+    }
+    .modalheading{
+        font-family: var(--primary-font);
+
+    }
+    .modal-body{
+        padding: 20px 16px;
+        background-color: white;
+        display: flex;
+        border-radius: 0 0 25px 25px;
+        color: var(--strong-grey);
+        justify-content: center;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 75%;
+    }
+    .emaildiv{
+        padding-bottom: 3px;
+        width: 30%;
+        display: flex;
+    }
+
+    .passworddiv {
+        padding-bottom: 3px;
+        width: 30%;
+        margin-top: 2%;
+        display: flex;
+
+    }
+    form label{
+        margin-left: 5px;
+        font-size: small;
+    }
+     .modalbody label{
+         font-size: 90%;
+     }
+
+    input { 
+        border: 1px solid var(--strong-grey);
+        width: 90%;
+        border-radius: 5px;
+    }
+    .logomodal {
+        width: 100%;
+    }
+.forgotpass {
+    text-decoration: none;
+    color: grey;
+    font-size: smaller;
+    text-align: initial;
+    margin-top: 1%;
+}
+.forgotpass:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.loginbutton {
+    width: 38%;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 28%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+.loginbutton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 
 /*** Last-section ***/
 
@@ -203,6 +354,8 @@ footer {
         padding: 4px;
         border-radius: 15px;
         cursor: pointer;
+        text-decoration: none;
+        color: black;
     }
 
     .header-btn:hover {
