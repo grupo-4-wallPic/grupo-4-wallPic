@@ -225,7 +225,7 @@ header {
     border-radius: 30px;
     background-color: white;
     margin-left: 28%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     padding: 2%;
 }
 
@@ -235,6 +235,18 @@ header {
     cursor: pointer;
 }
 
+.redirectregister {
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+.redirectregister:hover{
+    text-decoration: underline;
+    color: black;
+}
 /*** Last-section ***/
 
 .last-miscellaneous {
