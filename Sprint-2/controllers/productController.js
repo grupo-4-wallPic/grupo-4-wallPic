@@ -6,7 +6,7 @@ const products = JSON.parse (leerJson);
 module.exports = {
     root: (req, res) => {
         let unProducto = products.find (function (product) {
-            return product.id == req.query.id
+            return product.id == req.query
         })
     return res.render ('product', {unProducto});
     }

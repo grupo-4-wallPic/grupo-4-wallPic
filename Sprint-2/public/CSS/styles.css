@@ -170,7 +170,7 @@ header {
         justify-content: center;
     }
     .login{
-        display: flex;
+        display: flex; 
         flex-direction: column;
         text-align: center;
         width: 75%;
@@ -315,6 +315,12 @@ header {
 .todo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: center;
+    flex-direction: row;
+    width: 900px;
+    text-align: center;
+    margin: auto;
 }
 
 .categoria {
@@ -334,11 +340,31 @@ header {
 .product a{
     text-decoration: none;
     color: black;
-    background-color: white;
 }
 
-.product-box {
-    display: none;
+.desvanecer {
+    display: inline-block;
+    position: relative;
+}
+
+.desvanecer article{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 10px;
+    margin: 0;
+    width: min-content;
+    padding-left: 70px;
+}
+
+.image:hover{
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
 .link {
@@ -349,16 +375,60 @@ header {
 }
 
 .image img{
-    width: 400px;
+    width: 250px;
 }
 
  .nombre {
     font-family: var(--primary-font);
+    padding-top: 30px;
 
  }
 
  .precio {
     font-family: var(--secundary-font);
+ }
+
+ /* Detalle de producto */
+
+.img-extra{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+}
+
+ .img-extra img{
+     width: 100px;
+ }
+
+ .img-principal {
+     display: flex;
+    align-self: flex-start;
+ }
+
+ .img-principal img{
+     width: 450px;
+     padding-left: 150px;
+     padding-bottom: 150px;
+ }
+
+ .descripcion-header {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--primary-font);
+ }
+
+.about {
+    font-family: var(--secundary-font);
+}
+
+ .add-to-cart{
+     background-color: black;
+     color: white;
+     border-radius: 15px;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     font-family: var(--secundary-font);
  }
 
 /* Footer */
