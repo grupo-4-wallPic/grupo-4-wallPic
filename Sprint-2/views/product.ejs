@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <%- include('./partials/head') %> 
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+   <!-- Normalize -->
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <div>
         <%- include('./partials/header') %>
         <section class="product-info">
+            <article class='imagenes'>
             <div class='img-extra'>
                 <figure>
-                    <img src="./images/animales/Buho.jpg" alt="">
+                    <img src="<%= unProducto.image %> " alt="">
                 </figure>
                 <figure>
-                    <img src="./images/animales/Buho.jpg" alt="">
+                    <img src="<%= unProducto.image %>" alt="">
                 </figure>
                 <figure>
-                    <img src="./images/animales/Buho.jpg" alt="">
+                    <img src="<%= unProducto.image %>" alt="">
                 </figure>
             </div>
             <div class='img-principal'>
                 <figure>
-                    <img src="./images/animales/Buho.jpg" alt="">
+                    <img src="<%= unProducto.image %>" alt="">
                 </figure>
             </div>
+            <div class='seleccion'>
             <div class='product-info'>
-                <p>Nombre</p>
-                <h2>Precio</h2>
+                <p><%= unProducto.name %> </p>
+                <h2>$<%= unProducto.price[0] %> </h2>
                 <p>Medios de pago</p>
             </div>
             <div class='tarjetas'>
@@ -38,10 +47,14 @@
             </div>
             <div class='dropdowns'>
                 <p>Marco</p>
+
                 <p>Tamaño</p>
+
                 <p>Cantidad</p>
             </div>
             <button class='add-to-cart'>Agregar al carrito</button>
+            </div>
+        </article>
         </section>
         <section class='descripcion'>
             <h2 class='descripcion-header'>Sobre este producto</h2>
@@ -52,18 +65,18 @@
             <h2 class='descripcion-footer'> <br> </h2>
         </section>
 
-        <section>
+        <section class='related'>
             <h2 class='descripcion-header'>Productos relacionados</h2>
             <div>
+                <section>
                 <figure>
                     <img src="" alt="">
                 </figure>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                </figure>
+                <article>
+                    <p> </p>
+                    <h2></h2>
+                </article>
+                </section>
             </div>
         </section>
 
