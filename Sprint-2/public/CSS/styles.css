@@ -409,6 +409,7 @@ header {
     max-width: 600px;
     background-color: var(--intermediate-grey);
     border-radius: 15px;
+    font-family: var(--primary-font);
 }
 
 @keyframes cart {
