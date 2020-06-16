@@ -16,17 +16,26 @@
 <body>
     <div>
         <%- include('./partials/header') %>
+        <br>
+        <br>
+        <br>
         <section class="product-info">
             <article class='imagenes'>
             <div class='img-extra'>
                 <figure>
-                    <img src="<%= unProducto.image %> " alt="">
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
                 </figure>
                 <figure>
-                    <img src="<%= unProducto.image %>" alt="">
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
                 </figure>
                 <figure>
-                    <img src="<%= unProducto.image %>" alt="">
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
                 </figure>
             </div>
             <div class='img-principal'>
@@ -35,7 +44,7 @@
                 </figure>
             </div>
             <div class='seleccion'>
-            <div class='product-info'>
+            <div class='product-txt'>
                 <p><%= unProducto.name %> </p>
                 <h2>$<%= unProducto.price[0] %> </h2>
                 <p>Medios de pago</p>
@@ -46,11 +55,40 @@
                 <i class="fab fa-cc-amex"></i>
             </div>
             <div class='dropdowns'>
-                <p>Marco</p>
-
-                <p>Tamaño</p>
-
-                <p>Cantidad</p>
+                <ul>
+                    <li><a href="#">Marco </a>
+                        <div class='sub-menu-1'>
+                            <ul>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[0] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[1] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[2] %></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Tamaño</a>
+                        <div class='sub-menu-2'>
+                            <ul>
+                                <li class="active"><a href="#"><%= unProducto.medidas[0] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[1] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[2] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[3] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[4] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[5] %></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Cantidad</a>
+                        <div class='sub-menu-3'>
+                            <ul>
+                                <li class="active"><a href="#">1</a></li>
+                                <li class="active"><a href="#">2</a></li>
+                                <li class="active"><a href="#">3</a></li>
+                                <li class="active"><a href="#">4</a></li>
+                                <li class="active"><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <button class='add-to-cart'>Agregar al carrito</button>
             </div>
@@ -58,25 +96,59 @@
         </section>
         <section class='descripcion'>
             <h2 class='descripcion-header'>Sobre este producto</h2>
-            <article class='about'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, placeat reprehenderit. Magni illo consectetur culpa voluptas amet voluptatem, debitis rem tempora vero eligendi reiciendis laborum quasi animi aliquid quo quidem.
-            Id necessitatibus commodi cum at quas. Voluptatibus eligendi corporis ad, officia consequatur ducimus accusantium optio fuga obcaecati distinctio? Itaque commodi ipsum nam, consequuntur voluptates voluptatibus. Nihil quas libero esse aliquid.
-            Numquam, excepturi praesentium incidunt esse quod voluptatum autem quidem ratione suscipit voluptate ex minus, odio hic quaerat pariatur dignissimos, ut deleniti nulla! Dolore enim saepe autem totam praesentium voluptatum. Hic!
-            Fuga, quidem sint magnam recusandae quia autem corporis vel aliquam debitis quibusdam. Asperiores nesciunt doloremque minus consequuntur et sed autem, culpa tempora fugit, nobis reiciendis enim dolorum quas. Quisquam, corporis.</article>
+            <article class='about'> <%= unProducto.description %> </article>
             <h2 class='descripcion-footer'> <br> </h2>
         </section>
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <section class='related'>
             <h2 class='descripcion-header'>Productos relacionados</h2>
             <div>
-                <section>
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <article>
-                    <p> </p>
-                    <h2></h2>
-                </article>
+                <section class="prod-related">
+                    <figure class='img-related-1'>
+                        <img src="<%= unProducto.image %> " alt="">
+                    </figure>
+                    <figure class='img-related-2'>
+                        <img src="<%= unProducto.image %>" alt="">
+                    </figure>
+                    <figure class='img-related-3'>
+                        <img src="<%= unProducto.image %>" alt="">
+                    </figure>
                 </section>
+                <section class='txt-related'>
+                    <article class='txt-related-1'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                    <article class='txt-related-2'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                    <article class='txt-related-3'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                </section>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
         </section>
 
