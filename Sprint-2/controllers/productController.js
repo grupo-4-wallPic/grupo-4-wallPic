@@ -11,6 +11,6 @@ module.exports = {
     return res.render ('product', {unProducto});
     },
     item: (req, res) => {
-        return res.render ('index')
+       
     }
 }
