@@ -10,10 +10,35 @@
     <%- include('./partials/header') %>
     <div class="slider">
         <ul>
-            <li><img src="Images/Fondos/fondo1.jpg"> </li>
-            <li><img src="Images/Fondos/fondo2.jpg"></li>
+            <li><img src="Images/Fondos/fondo2.jpg"> </li>
+            <li><img src="Images/Fondos/fondo1.jpg"></li>
             <li><img src="Images/Fondos/fondo3.jpg"></li>
         </ul>
+    </div>
+
+    <div class="most-sale-container">
+        <div class="most-sale-title">
+            <h2>Los Mas Vendidos</h2>
+            <a href="#">ver todos</a>
+        </div>
+        <div class="carrousel-container">
+            <div class="botonatras">&#60</div>
+        <% mostsale.forEach(function(product){%>
+          
+                <div class="section-container">
+                    <section class="most-sale-section">
+                        <img src="/images/masvendidos/<%=product.image%>" alt="imagen del producto">
+                        <article class="infomasvendidos">
+                            <h3><%=product.name%></h3>
+                            <h2>$<%=product.price[1]%></h2>
+                    </article>
+            </section>
+                </div>
+         
+        <%})%>
+        <div class="botonadelante">&#62</div>
+        </div>  
+    </div>
     <br>
     <br>
     <br>
