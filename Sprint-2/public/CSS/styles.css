@@ -28,6 +28,40 @@
 body {
     background: var(--light-grey);
 }
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: cambio 40s infinite;
+    animation-direction: initial;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+ .slider img {
+    width: 100%;
+    height: 550px;
+
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    28% {margin-left: 0;}
+    33% {margin-left: -100%;}
+    62% {margin-left: -100%;}
+    67% {margin-left: -200%;}
+    95% {margin-left: -200%;}
+    100% {margin-left: 0%;}
+
+}
+
 
 /*** Header ***/
 
@@ -111,12 +145,12 @@ header {
         position: relative;
         background-color: white;
         margin: auto;
-        width: 35%;
         box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
         animation-name: modal;
         animation-duration: 1s;
         margin-top: 10%;
-        border-radius: 25px;
+        width: 100%;
+        border-radius: 10px;
     }
     @keyframes modal {
         from{top: -330px; opacity: 0;}
@@ -256,11 +290,6 @@ header {
     margin: 3px 0;
 }
 
-.register, .login i{
-    margin-top: 3px;
-   margin-left: 3px;
-}
-
 .register p{
     width: 90%;
 }
@@ -268,6 +297,7 @@ header {
 .checkboxnews {
     display: flex;
     flex-direction: row;
+    width: 90%;
 }
 
 .checkbox {
@@ -277,6 +307,10 @@ header {
 }
  .checkboxnews p {
     margin: auto;
+    width: 90%;
+}
+.emaildiv label, .passworddiv label {
+    margin-left: 4px;
 }
 /*** Last-section ***/
 
@@ -493,6 +527,10 @@ footer {
     .logo a {
         max-width: 5em;
     }
+    .contenido-modal{
+        width: 100%;
+        border-radius: 10px;
+    }
 
 }
 
@@ -562,6 +600,11 @@ footer {
         border: 1px solid black;
     }
 
+    .contenido-modal{
+        width: 75%;
+        border-radius: 10px;
+    }
+
     /*** Last-section ***/
 
     .last-miscellaneous {
@@ -578,4 +621,8 @@ footer {
 
 @media screen and (min-width: 1024px) {
 
+    .contenido-modal{
+        width: 35%;
+        border-radius: 25px;
+    }
 }
