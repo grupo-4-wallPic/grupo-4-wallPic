@@ -15,3 +15,15 @@ window.addEventListener('click',function (e){
     modal.style.display = 'none';
     }
 });
+
+let openCart = document.getElementById('open-cart');
+let showCart = document.getElementById('show-cart');
+let closeCart = document.getElementById('close-cart');
+
+openCart.addEventListener('click', function(){
+    showCart.style.display = 'block';
+});
+closeCart.addEventListener('click', function(){
+    showCart.style.display = 'none';
+});
+
