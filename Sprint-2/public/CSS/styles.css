@@ -563,14 +563,26 @@ header {
 /*** Menu-mobile ***/
 
 .menu-mobile {
-    background: rgba(0, 0, 0, .5);
+    background: var(--strong-grey);
+    font-family: var(--primary-font);
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    max-width: 400px;
+    max-height: 700px;
+    animation-name: mobile-menu;
+    animation-duration: 1s;
+}
+
+@keyframes mobile-menu {
+    from{left: -300px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
 }
 
 .menu-mobile-close {
@@ -578,6 +590,7 @@ header {
     position: absolute;
     top: 15px;
     right: 15px;
+    cursor: pointer;
 }
 
 .menu-mobile figure {
@@ -591,12 +604,18 @@ header {
 
 .menu-mobile li {
     margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
 }
 
 .menu-mobile a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+}
+
+.menu-mobile p {
+    margin: 0;
+    cursor: pointer;
 }
 
 /*** Last-section ***/
@@ -750,6 +769,7 @@ header {
 .product-info {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .dropdowns ul li:hover .sub-menu-1{
