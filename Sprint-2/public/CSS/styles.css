@@ -559,6 +559,44 @@ header {
     color: white;
 }
 
+/*** Menu-mobile ***/
+
+.menu-mobile {
+    background: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu-mobile-close {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.menu-mobile figure {
+    width: 200px;
+}
+
+.menu-mobile ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-mobile li {
+    margin-bottom: 10px;
+}
+
+.menu-mobile a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
 
 /*** Last-section ***/
 
