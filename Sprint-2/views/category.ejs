@@ -18,9 +18,11 @@
 				<section class="product">
                     <a class="link" href="/products/<%= product.id %>">
                         <div class='desvanecer'>
+                        <div class='img-container'>
 						<figure class="image">
 							<img src="<%= product.image %>" alt="imagen de <%= product.name %>">
                         </figure>
+                        </div>  
 						<article class="product-box">
                             <h2 class="nombre"><%= product.name %> </h2>
 							<p class="precio"> $<%= product.price[0] %> - $<%= product.price[4] %> </p>
