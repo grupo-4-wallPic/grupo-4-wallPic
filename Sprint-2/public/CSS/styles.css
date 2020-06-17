@@ -578,6 +578,7 @@ header {
     max-height: 700px;
     animation-name: mobile-menu;
     animation-duration: 1s;
+    border-radius: 0 10px 10px 0;
 }
 
 @keyframes mobile-menu {
