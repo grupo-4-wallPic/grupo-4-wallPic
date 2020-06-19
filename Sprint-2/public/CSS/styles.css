@@ -1264,6 +1264,27 @@ footer {
         list-style: none;
         padding-left: 0;
     }
+    .carrousel-container{
+        flex-direction: row;
+        }
+        .categoria-trio{
+            flex-direction: row;
+            width: 85%;
+            margin: 1% auto 30% auto;
+        }
+        .categoriascuadros{
+            margin: auto;
+            justify-content: center;
+            width: 30%;
+        }
+        .categoriascuadros img {
+            width: 75%;
+            margin: 0;
+            position: absolute;
+        }
+        .container-categorias section{
+            height: 100%;
+        }
 
 }
    
