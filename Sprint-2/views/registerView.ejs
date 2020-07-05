@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registrate</title>
+    <%- include('./partials/head') %> 
+</head>
+<body>
+    <%- include('./partials/header') %>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form class="register-form" action="/register" method="POST">
+        <div class="register-name">
+        <label>Nombre(s)</label>
+        </div>
+        <input type="text" name="name">
+        <div class="register-">
+        <label>Apellido(s)</label>
+        </div>
+        <input type="text" name="lastname">
+        <div class="register-email">
+            <i class="fas fa-envelope"></i>
+            <label>Email</label>
+        </div>
+        <input type="email" name="email">
+        <div class="register-pass">
+            <i class="fas fa-lock"></i>
+            <label>Contraseña</label>
+        </div>
+        <input type="password" name="password">
+        <div>
+        <label> Reingrese su Contraseña</label>
+        </div>
+        <input type="password" name="retype">
+        <p>Todos los campos son obligatorios</p>
+        <div class="register-checkbox">
+            <input type="checkbox" class="checkbox-view">
+            <p>Acepto Recibir Newsletters con novedades, promociones y actualizaciones.</p>
+        </div>
+        <p>Al hacer click en "Crear Cuenta", usted esta aceptando las Condiciones de uso y la politica de
+            privacidad de WallPic</p>
+    
+        <button type="submit" class="register-login">Crear Cuenta</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <%- include('./partials/footer') %>
+</body>
+</html>
+
+
+
+
+

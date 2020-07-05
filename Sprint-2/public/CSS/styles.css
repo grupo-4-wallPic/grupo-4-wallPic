@@ -906,7 +906,35 @@ header {
     padding-left: 0;
 }
 
+/* Registro aparte */
+.register-form {
+    display: block;
+    padding-right: 400px;
+    padding-left: 400px;
+    text-align: center;
+}
 
+.register-form input {
+    height: 30px;
+}
+
+.register-checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.register-checkbox p {
+    text-align: center;
+    padding-left: 0;
+    align-self: flex-end;
+}
+
+.checkbox-view {
+    width: fit-content;
+}
 
 /* Footer */
 .btn-news {

@@ -11,10 +11,9 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));  
-app.use( methodOverride('_method'));
+app.use( methodOverride('_method'))
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(express.urlencoded({extended: false}));
-
 
 app.listen(3030, () => console.log('running on 3030'));
 
