@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+ href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+ rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+ <link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/patchstyles.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <div class="logindiv">
+    <a href="#" class="logomodalcont">
+        <img src="../../Images/logoNegro.png" class="logomodal">
+    </a>
+    <form class="login" action="/index" method="POST">
+        <div class="emaildiv">
+        <i class="fas fa-envelope"></i>
+        <label>Email</label>
+        </div>
+       <input type="email" class="loginemail" name="email"></input>
+       <div class="passworddiv">
+       <i class="fas fa-lock"></i>
+        <label>Contraseña</label>
+        </div>
+        <input type="password" class="loginpassword" name="password"></input>
+        <a href="#" class="forgotpass">Olvide mi contraseña</a>
+        <button type="submit" class="loginbutton">Ingresar</button> 
+        <a href="#" class="redirectregister">No tenes cuenta? Regístrate ahora</a>
+    </form>
+</div>
+</body>
+</html>

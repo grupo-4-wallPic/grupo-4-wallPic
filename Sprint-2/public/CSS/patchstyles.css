@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+    --light-grey       : #F2F2F2;
+    --intermediate-grey: #E8E8E8;
+    --strong-grey      : #666666;
+    --dark-grey        : #333333;
+    --primary-font     : 'Roboto', sans-serif;
+    --secundary-font   : 'Open Sans', sans-serif;
+} 
+
+/*** Body ***/
+
+body {
+    background: var(--light-grey);
+}
+.logomodalcont {
+    margin: auto;
+}
+
+.logindiv {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.logomodal{
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+button {
+    width: 40%;
+    margin: auto;
+    margin-top: 8%;
+}
+.redirectregister {
+    margin: auto;
+    font-size: smaller;
+}
+@media screen and (min-width: 420px) {
+form input, .emaildiv, .passworddiv, .forgotpass {
+    width: 360px;
+}
+.emaildiv, .passworddiv, .forgotpass, form input {
+    margin: auto;
+}
+button {
+    width: 100px;
+}
+}

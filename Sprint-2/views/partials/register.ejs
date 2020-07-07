@@ -4,33 +4,33 @@
             <div class="modal-header flex">
                 <div class="modal-header-div">
                     <p class="modalheading">Unite a</p>
-                    <a href="#" class="logomodalcont">
+                    <a href="/register" class="logomodalcont">
                         <img src="../../Images/logoNegro.png" class="logomodal">
                     </a>
                 </div>
                 <span class="close" id="close2">&times;</span>
             </div>
             <div class="modal-body">
-                <form class="register" action="/index" method="POST">
+                <form class="register" action="/register" method="POST">
                     <label>Nombre(s)</label>
-                    <input></input>
+                    <input type="text" name="name">
                     <label>Apellido(s)</label>
-                    <input></input>
+                    <input type="text" name="lastname">
                     <div class="emaildiv">
                         <i class="fas fa-envelope"></i>
                         <label>Email</label>
                     </div>
-                    <input></input>
+                    <input type="email" name="email">
                     <div class="passworddiv">
                         <i class="fas fa-lock"></i>
                         <label>Contraseña</label>
                     </div>
-                    <input></input>
+                    <input type="password" name="password">
                     <label> Reingrese su Contraseña</label>
-                    <input></input>
+                    <input type="password" name="retype">
                     <p>Todos los campos son obligatorios</p>
                     <div class="checkboxnews">
-                        <input type="checkbox" class="checkbox"></input>
+                        <input type="checkbox" class="checkbox">
                         <p>Acepto Recibir Newsletters con novedades, promociones y actualizaciones.</p>
                     </div>
                     <p>Al hacer click en "Crear Cuenta", usted esta aceptando las Condiciones de uso y la politica de
