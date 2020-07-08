@@ -11,7 +11,10 @@
     <br>
     <br>
     <br>
-    <br>
+    
+    
+        
+    
     <br>
     <br>
     <br>
@@ -21,24 +24,30 @@
         <label>Nombre(s)</label>
         </div>
         <input type="text" name="name">
+        <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.name ? errors.name.msg : null %></p> 
         <div class="register-">
         <label>Apellido(s)</label>
         </div>
         <input type="text" name="lastname">
+        <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.lastname ? errors.lastname.msg : null %></p> 
+            
         <div class="register-email">
             <i class="fas fa-envelope"></i>
             <label>Email</label>
         </div>
         <input type="email" name="email">
+        <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.email ? errors.email.msg : null %></p> 
         <div class="register-pass">
             <i class="fas fa-lock"></i>
             <label>Contraseña</label>
         </div>
         <input type="password" name="password">
+        <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.password ? errors.password.msg : null %></p> 
         <div>
         <label> Reingrese su Contraseña</label>
         </div>
         <input type="password" name="retype">
+        <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.retype ? errors.retype.msg : null %></p> 
         <p>Todos los campos son obligatorios</p>
         <div class="register-checkbox">
             <input type="checkbox" class="checkbox-view">
