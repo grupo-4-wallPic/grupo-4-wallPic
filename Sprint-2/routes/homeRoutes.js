@@ -6,8 +6,8 @@ const registerController = require ('../controllers/registerController')
 const validator = require('../middlewares/validator')
 
 router.get('/', homeController.main);
-router.post('/login', loginController.login);
 router.get ('/login', loginController.index);
+router.post('/login', validator.login, loginController.login);
 router.get ('/register', registerController.index)
 router.post('/register', validator.registerValidator, registerController.registro);
 

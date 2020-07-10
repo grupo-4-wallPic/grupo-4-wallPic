@@ -1,6 +1,7 @@
 const {check, body} = require('express-validator');
 const json = require('../custom-module/custom-json')
 const users = json('users')
+const bcryptjs = require ('bcryptjs')
 
 module.exports = {
 
@@ -36,6 +37,23 @@ module.exports = {
         .custom((value, { req }) => req.body.password === value)
         .withMessage("Las contraseñas deben coincidir"),
         
-    ]
+    ],
+    login: [
+        body("email")
+          .notEmpty()
+          .withMessage("Campo obligatorio")
+          .bail()
+          .custom((value, { req }) => {
+            const user = users.findBySomething((user) => user.email == value);
+    
+            if (user) {
+              return bcryptjs.compareSync(req.body.password, user.password);
+            } else {
+              return false;
+            }
+          })
+          .withMessage("Email o contraseña inválidos"),
+        body("password").notEmpty().withMessage("Campo obligatorio"),
+      ],
 
 }

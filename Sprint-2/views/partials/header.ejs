@@ -31,12 +31,18 @@
             <i class="fas fa-bars Burguer" id="open-mobile-menu"></i>
         </div>
         <!-- LogIn and Register -->
+        <% if (locals.user) { %>
+				 
+
+        <% } else {%>
+
+            <!-- Si no estoy logueado -->
             <div class="header-btns-container">
                 <a href="/login" class="header-btn" id="abrir">Iniciar Sesión</a>
                 <hr class="btns-line">
                 <a href="/register" id="abrir2" class="header-btn">Crear Cuenta</a>
             </div>
-          
+            <% }%>
         <!-- Cart -->
         <div class="cart-btn">
             <i class="fas fa-shopping-cart" id="open-cart"></i>

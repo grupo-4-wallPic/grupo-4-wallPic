@@ -2,54 +2,35 @@ const fs = require ('fs');
 const path = require ('path');
 // const { json } = require('express');
 // const { delete } = require('../routes/homeRoutes');
-const bcryptjs = require('bcryptjs')
 const {validationResult} = require('express-validator')
+const json = require ('../custom-module/custom-json')
+const users = json('users')
 
 module.exports = {
-
-    login: (req, res) => {
-       const usersFilePath = path.join(__dirname, '..', 'data', 'users.json');
-
-        let usuarios = JSON.parse(fs.readFileSync(usersFilePath, {encoding: 'utf-8'}))
-
-       return res.render('/')
-
-    },
     index: (req, res) => {
 
         return res.render('loginView')
     },
-
-    register: (req, res) => {
-
+    login: (req, res) => {
         let errors = validationResult(req);
 
         if (errors.isEmpty()) {
-        const usersFilePath = path.join(__dirname, '..', 'data', 'users.json');
+            let user = users.findBySomething(user => user.email == req.body.email);
 
-        let usuarios = JSON.parse(fs.readFileSync(usersFilePath, {encoding: 'utf-8'}))
-        delete req.body.retype;
-        let passCrypt = bcryptjs.hashSync(req.body.password, 10);
-        let nuevoUsuario = {
+      delete user.password;
 
-            ...req.body,
-            password: passCrypt
+      req.session.user = user; // YA ESTÁ EN SESION
 
-        };
-        let newUsers = [...usuarios, nuevoUsuario];
-        
-        let usuarioJson = JSON.stringify(newUsers);
-        
-       
+      if (req.body.remember) {
+        // Creo la cookie
 
-        fs.writeFileSync(usersFilePath, usuarioJson);
+        res.cookie('email', user.email, { maxAge: 1000 * 60 * 60 * 24 });
 
-        
+      }
         return res.redirect('/');
-        }else {
-            console.log(errors.errors)
-            return res.redirect('/', {errors: errors.errors})
-        }
-    }
-
+        } else {
+        return res.render('loginView', {errors: errors.mapped(), old:req.body});
+        }   
+    },
+    
 }
