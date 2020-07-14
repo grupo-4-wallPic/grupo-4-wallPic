@@ -12,5 +12,12 @@
   "lastname": "Carossino",
   "email": "manuelcarossino@me.com",
   "password": "$2a$10$dqSozErAKGKod3Oz2DIOG./kdMM.RLIDsR0SzW8m.qd.wXhT.wcwq"
+ },
+ {
+  "id": 3,
+  "name": "Catalina",
+  "lastname": "Gelabert Bengtsson",
+  "email": "catagelabertb@gmail.com",
+  "password": "$2a$10$0Ey60UTaJ5o9Cg18ldr0YO7WtmnRVrOn8BpyL0NoYnbJnCXpRmdwy"
  }
 ]
