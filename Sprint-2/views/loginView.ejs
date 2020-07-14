@@ -29,6 +29,10 @@
         </div>
         <input type="password" class="loginpassword" name="password"></input>
         <p class="errors" style="color: red;"><%= typeof errors == 'undefined' ? null: errors.password ? errors.password.msg : null %></p> 
+        <div class="remember">
+            <input type="checkbox" class="remember-checkbox">
+            <p>Recordame</p>
+        </div>
         <a href="#" class="forgotpass">Olvide mi contraseña</a>
         <button type="submit" class="loginbutton">Ingresar</button> 
         <a href="#" class="redirectregister">No tenes cuenta? Regístrate ahora</a>
