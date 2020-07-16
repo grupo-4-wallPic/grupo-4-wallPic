@@ -4,6 +4,8 @@ const path = require('path');
 const methodOverride = require('method-override')
 // const session = require ('express-session');
 
+const pruebasRoutes = require('./routes/pruebasRoutes')
+const adminRoutes = require('./routes/adminRoutes')
 const homeRoutes = require('./routes/homeRoutes');
 const categoryRoutes = require ('./routes/categoryRoutes');
 const productRoutes = require ('./routes/productRoutes');
@@ -29,6 +31,9 @@ app.use('/', homeRoutes);
 app.use('/category', categoryRoutes);
 app.use('/products', productRoutes);
 app.use('/cart', cartRoutes)
+app.use('/admin', adminRoutes)
+app.use('/pruebas', pruebasRoutes)
+
 
 
 // module.exports = app;

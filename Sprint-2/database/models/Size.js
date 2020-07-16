@@ -1,7 +1,10 @@
 module.exports = (sequelize, DataTypes) => {
 
-    const Size = sequelize.define ("Size",{
-    id: DataTypes.INTEGER,
+    const Size = sequelize.define ("Sizes",{
+    id: {
+            type: DataTypes.INTEGER,
+            primaryKey: true
+        },
     
     size: DataTypes.STRING,
 

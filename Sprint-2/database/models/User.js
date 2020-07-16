@@ -1,7 +1,10 @@
 module.exports = (sequelize, DataTypes) => {
 
-const User = sequelize.define ("User",{
-id: DataTypes.INTEGER,
+const User = sequelize.define ("Users",{
+id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true
+    },
 
 name: DataTypes.STRING,
 
