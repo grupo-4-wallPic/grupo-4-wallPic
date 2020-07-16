@@ -1,8 +1,8 @@
 module.exports = {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "WALLPIC",
+    "password": 'cosmonauta2020',
+    "database": "wallpic",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
