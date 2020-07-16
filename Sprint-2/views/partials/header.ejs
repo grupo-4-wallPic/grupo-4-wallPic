@@ -32,8 +32,7 @@
         </div>
         <!-- LogIn and Register -->
         <% if (locals.user) { %>
-				 
-
+			<a href="/register" class="header-btn" id="cerrar">Cerrar Sesión</a>
         <% } else {%>
 
             <!-- Si no estoy logueado -->
@@ -45,14 +44,12 @@
             <% }%>
         <!-- Cart -->
         <div class="cart-btn">
-            <i class="fas fa-shopping-cart" id="open-cart"></i>
+            <a href="/cart" style="color: black;"><i class="fas fa-shopping-cart" id="open-cart"></i></a>
         </div>
     </div>
 </header>
 </div>
 <%- include('./menu-mobile') %> 
-<%- include('./cart') %>  
-<%- include('./login') %>  
-<%- include('./register') %>  
+
  
 

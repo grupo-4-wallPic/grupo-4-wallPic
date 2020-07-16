@@ -63,4 +63,13 @@ form input, .emaildiv, .passworddiv, .forgotpass {
 button {
     width: 100px;
 }
+
+.remember {
+    display: flex;
+    align-self: center;
+}
+
+.remember-checkbox {
+    width: fit-content;
+}
 }
