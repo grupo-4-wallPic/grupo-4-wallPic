@@ -988,12 +988,14 @@ footer {
 
 .admin-container {
     height: 70vh;
+    min-height: 440px;
     width: 100%;
     max-width: 700px;
-    margin: 0px auto;
-    padding: 5px;
+    margin: 15px auto;
+    padding: 22px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 10px 7px 5px 0px rgba(143,139,143,1);
 }
 
 .admin-buttons {
@@ -1026,10 +1028,91 @@ footer {
     margin: 2px;
 }
 
-
-.despliega:hover {
-    height: 100%;
+.admin-forms {
     width: 100%;
+    height: 85%;
+    /* border: 1px solid red; */
+    /* padding: 15px; */
+}
+
+.new-form {
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--secundary-font);
+}
+
+.admin-form-input {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.forms-lists {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--secundary-font);
+}
+
+.forms-lists form {
+     height: 45%;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-cont-dblist {
+    width: 100%;
+    height: 70%;
+    max-width: 400px;
+}
+
+.form-dblist {
+    height: 60%;
+    border: 1px solid var(--strong-grey);
+    padding: 5px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+.form-dblist p {
+    margin: 5px;
+}
+
+.form-btn-submit {
+    border-radius: 5px;
+    background: white;
+    border: 1px solid var(--strong-grey);
+    width: 110px;
+}
+
+#admin-form-new {
+    /* display: none; */
+}
+
+#admin-form-color {
+    display: none;
+}
+
+#admin-form-sizes {
+    display: none;
+}
+
+#admin-form-categories {
+    display: none;
 }
 
 /*** Media Querys ***/
@@ -1083,11 +1166,6 @@ footer {
 
     /**** Admin Styles ****/
 
-    .admin-container {
-        margin: 15px auto;
-        padding: 25px;
-        box-shadow: 10px 7px 5px 0px rgba(143,139,143,1);
-    }
 }
 
 @media screen and (min-width: 769px) {

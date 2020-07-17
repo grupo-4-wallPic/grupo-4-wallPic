@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <%- include('./partials/head') %> 
+    <%- include('./partials/head') %>
 </head>
+
 <body>
     <%- include('./partials/header') %>
 
@@ -17,7 +19,7 @@
             </div>
             <div class="admin-button">
                 <i class="far fa-square"></i>
-                <p>Marcos</p>
+                <p>Color</p>
             </div>
             <div class="admin-button">
                 <i class="fas fa-ruler-horizontal"></i>
@@ -26,13 +28,90 @@
             <div class="admin-button">
                 <i class="far fa-lightbulb"></i>
                 <p>Categorías</p>
-            </div>   
+            </div>
         </section>
-        <div>
-
-        </div>
+        <section class="admin-forms">
+            <!-- Formulario New Pic -->
+            <form action="" class="new-form" id="admin-form-new" method="POST" enctype="multipart/form-data"
+            >
+                <div class="input-container">
+                    <label for="name">Nombre del producto</label>
+                    <input type="text" class="admin-form-input" name="name">
+                </div>
+                <div>
+                    <label for="category">Elegí una categoría</label>
+                    <select name="category" id="">
+                        <option value="Animales">Animales</option>
+                        <option value="Animales">Ciudades</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="description">Describí el producto</label>
+                    <textarea name="description" class="admin-form-input" id="" cols="25" rows="5"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="image">Subí una imagen</label>
+                    <input type="file" class="admin-form-input" name="image">
+                </div>
+                <button type="submit" class="form-btn-submit">Crear nuevo</button>
+            </form>
+            <!-- Formulario Color -->
+            <div class="forms-lists" id="admin-form-color">
+                <div class="form-cont-dblist">
+                    <h3>Colores disponibles</h3>
+                    <div class="form-dblist">
+                        <p>rojo</p>
+                    </div>
+                </div>
+                <form action="" method="POST">
+                    <div class="input-container">
+                        <label for="color">Ingresá un nuevo color</label>
+                        <input type="text" class="admin-form-input" name="color">
+                    </div>
+                    <button type="submit" class="form-btn-submit">Crear nuevo</button>
+                </form>
+            </div>
+            <!-- Formulario medidas -->
+            <div class="forms-lists" id="admin-form-sizes">
+                <div class="form-cont-dblist">
+                    <h3>Medidas disponibles</h3>
+                    <div class="form-dblist">
+                        <p>rojo</p>
+                    </div>
+                </div>
+                <form action="" method="POST">
+                    <div class="input-container">
+                        <label for="color">Ingresá una nueva medida</label>
+                        <input type="text" class="admin-form-input" name="color">
+                    </div>
+                    <div class="input-container">
+                        <label for="color">Ingresá un precio para esta medida</label>
+                        <input type="text" class="admin-form-input" name="color">
+                    </div>
+                    <button type="submit" class="form-btn-submit">Crear nuevo</button>
+                </form>
+            </div>
+            <!-- Formulario Categorías -->
+            <div class="forms-lists" id="admin-form-categories">
+                <div class="form-cont-dblist">
+                    <h3>Categorías disponibles</h3>
+                    <div class="form-dblist">
+                        <p>rojo</p>
+                    </div>
+                </div>
+                <form action="" method="POST">
+                    <div class="input-container">
+                        <label for="color">Ingresá una nueva categoría</label>
+                        <input type="text" class="admin-form-input" name="color">
+                    </div>
+                    <button type="submit" class="form-btn-submit">Crear nueva</button>
+                </form>
+            </div>
+        </section>
     </div>
+    <p style="text-align: center; color: red;">errores</p>
 
     <%- include('./partials/footer') %>
 </body>
+
 </html>
