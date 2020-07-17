@@ -77,3 +77,46 @@ openRegistration.addEventListener('click', function() {
     showMobileMenu.style.display = 'none'
     modal2.style.display = 'block';
 })
+
+
+//********* Lógica de Admin ********
+
+let btnNewPic = document.getElementById('btn-newpic')
+let btnColor = document.getElementById('btn-color')
+let btnSizes = document.getElementById('btn-sizes')
+let btnCategories = document.getElementById('btn-categories')
+
+let newPic = document.getElementById('admin-form-new')
+let newColor = document.getElementById('admin-form-color')
+let newSizes = document.getElementById('admin-form-sizes')
+let newCategory = document.getElementById('admin-form-categories')
+
+
+
+btnNewPic.addEventListener('click', function () {
+    newPic.style.display = 'flex'
+    newColor.style.display = 'none'
+    newSizes.style.display = 'none'
+    newCategory.style.display = 'none'
+});
+
+btnColor.addEventListener('click', function () {
+    newPic.style.display = 'none'
+    newColor.style.display = 'flex'
+    newSizes.style.display = 'none'
+    newCategory.style.display = 'none'
+});
+
+btnSizes.addEventListener('click', function () {
+    newPic.style.display = 'none'
+    newColor.style.display = 'none'
+    newSizes.style.display = 'flex'
+    newCategory.style.display = 'none'
+});
+
+btnCategories.addEventListener('click', function () {
+    newPic.style.display = 'none'
+    newColor.style.display = 'none'
+    newSizes.style.display = 'none'
+    newCategory.style.display = 'flex'
+});

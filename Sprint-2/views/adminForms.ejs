@@ -13,26 +13,26 @@
 
     <div class="admin-container">
         <section class="admin-buttons">
-            <div class="admin-button">
+            <div class="admin-button" id="btn-newpic">
                 <i class="far fa-image"></i>
                 <p>New Pic</p>
             </div>
-            <div class="admin-button">
+            <div class="admin-button" id="btn-color">
                 <i class="far fa-square"></i>
                 <p>Color</p>
             </div>
-            <div class="admin-button">
+            <div class="admin-button" id="btn-sizes">
                 <i class="fas fa-ruler-horizontal"></i>
                 <p>Medidas</p>
             </div>
-            <div class="admin-button">
+            <div class="admin-button" id="btn-categories">
                 <i class="far fa-lightbulb"></i>
                 <p>Categorías</p>
             </div>
         </section>
         <section class="admin-forms">
             <!-- Formulario New Pic -->
-            <form action="" class="new-form" id="admin-form-new" method="POST" enctype="multipart/form-data"
+            <form action="admin/new" class="new-form" id="admin-form-new" method="POST" enctype="multipart/form-data"
             >
                 <div class="input-container">
                     <label for="name">Nombre del producto</label>
@@ -41,8 +41,8 @@
                 <div>
                     <label for="category">Elegí una categoría</label>
                     <select name="category" id="">
-                        <option value="Animales">Animales</option>
-                        <option value="Animales">Ciudades</option>
+                        <option value="1">Animales</option>
+                        <option value="2">Ciudades</option>
                     </select>
                 </div>
                 <div class="input-container">
@@ -60,10 +60,10 @@
                 <div class="form-cont-dblist">
                     <h3>Colores disponibles</h3>
                     <div class="form-dblist">
-                        <p>rojo</p>
+                        <p></p>
                     </div>
                 </div>
-                <form action="" method="POST">
+                <form action="admin/color" method="POST">
                     <div class="input-container">
                         <label for="color">Ingresá un nuevo color</label>
                         <input type="text" class="admin-form-input" name="color">
@@ -76,17 +76,17 @@
                 <div class="form-cont-dblist">
                     <h3>Medidas disponibles</h3>
                     <div class="form-dblist">
-                        <p>rojo</p>
+                        <p></p>
                     </div>
                 </div>
-                <form action="" method="POST">
+                <form action="admin/size" method="POST">
                     <div class="input-container">
                         <label for="color">Ingresá una nueva medida</label>
-                        <input type="text" class="admin-form-input" name="color">
+                        <input type="text" class="admin-form-input" name="size">
                     </div>
                     <div class="input-container">
                         <label for="color">Ingresá un precio para esta medida</label>
-                        <input type="text" class="admin-form-input" name="color">
+                        <input type="text" class="admin-form-input" name="price">
                     </div>
                     <button type="submit" class="form-btn-submit">Crear nuevo</button>
                 </form>
@@ -96,13 +96,13 @@
                 <div class="form-cont-dblist">
                     <h3>Categorías disponibles</h3>
                     <div class="form-dblist">
-                        <p>rojo</p>
+                        <p></p>
                     </div>
                 </div>
-                <form action="" method="POST">
+                <form action="admin/category" method="POST">
                     <div class="input-container">
                         <label for="color">Ingresá una nueva categoría</label>
-                        <input type="text" class="admin-form-input" name="color">
+                        <input type="text" class="admin-form-input" name="name">
                     </div>
                     <button type="submit" class="form-btn-submit">Crear nueva</button>
                 </form>

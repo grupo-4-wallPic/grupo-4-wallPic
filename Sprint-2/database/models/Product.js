@@ -10,6 +10,8 @@ module.exports = (sequelize, DataTypes) => {
 
     description: DataTypes.TEXT,
 
+    categoryId: DataTypes.INTEGER,
+
     images:  DataTypes.STRING
     
 },{tableName: "PRODUCTS", timestamps: false});
