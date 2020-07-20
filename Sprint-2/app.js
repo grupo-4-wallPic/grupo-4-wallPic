@@ -21,7 +21,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use( methodOverride('_method'))
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(session({secret:"Wallpic's Secrets"}));
+app.use(session({secret:"Wallpic's Secrets",
+resave: false,
+saveUninitialized: true}));
 app.use (cookieParser());
 app.use (log);
 
