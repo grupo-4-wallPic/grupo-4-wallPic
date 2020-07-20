@@ -1,0 +1,55 @@
+<div class="container">
+<header>
+    <div class="header-left">
+        <!-- Logo -->
+        <figure class="logo">
+            <a href="/">
+                <img src="../images/logoNegro.png" alt="" width="100%">
+            </a>
+        </figure>
+    </div>
+    <div class="header-center">
+        <!-- Searcher -->
+        <form class="nav-search" action="">
+            <button class="nav-search-btn" type="submit"><i class="fas fa-search"></i></button>
+            <input type="text" class="nav-search-input" placeholder="Buscar">
+        </form>
+         <!-- Menu -->
+        <nav class="menu">
+            <ul>
+                <li><a href="/category/animales">Vista categoría</a></li>
+                <li><a href="/products">Vista producto</a></li>
+                <!-- <li><a href="">UnLink</a></li> -->
+                <!-- <li><a href="">UnLink</a></li> -->
+                <!-- <li><a href="">UnLink</a></li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="header-right">
+        <!-- Burguer Menu -->
+        <div class="burger-menu">
+            <i class="fas fa-bars Burguer" id="open-mobile-menu"></i>
+        </div>
+        <!-- LogIn and Register -->
+        <% if (locals.user) { %>
+			<a href="/register" class="header-btn" id="cerrar">Cerrar Sesión</a>
+        <% } else {%>
+
+            <!-- Si no estoy logueado -->
+            <div class="header-btns-container">
+                <a href="/login" class="header-btn" id="abrir">Iniciar Sesión</a>
+                <hr class="btns-line">
+                <a href="/register" id="abrir2" class="header-btn">Crear Cuenta</a>
+            </div>
+            <% }%>
+        <!-- Cart -->
+        <div class="cart-btn">
+            <a href="/cart" style="color: black;"><i class="fas fa-shopping-cart" id="open-cart"></i></a>
+        </div>
+    </div>
+</header>
+</div>
+<%- include('./menu-mobile') %> 
+
+ 
+

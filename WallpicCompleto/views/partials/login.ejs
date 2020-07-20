@@ -1,0 +1,33 @@
+<div id="miModal" class="modal">
+    <div class="flex" id="flex">
+        <div class="contenido-modal">
+            <div class="modal-header flex">
+                <div class="modal-header-div">
+                <p class="modalheading">Ingresar a</p>
+                <a href='/login' class="logomodalcont">
+                    <img src="../../Images/logoNegro.png" class="logomodal">
+                </a>
+                </div>
+                <span class="close" id="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form class="login" action="/index" method="POST">
+                    <div class="emaildiv">
+                    <i class="fas fa-envelope"></i>
+                    <label>Email</label>
+                    </div>
+                   <input type="email" class="loginemail" name="email"></input>
+                   <div class="passworddiv">
+                   <i class="fas fa-lock"></i>
+                    <label>Contraseña</label>
+                    </div>
+                    <input type="password" class="loginpassword" name="password"></input>
+                    <a href="#" class="forgotpass">Olvide mi contraseña</a>
+                    <button type="submit" class="loginbutton">Ingresar</button> 
+                    <a href="#" class="redirectregister">No tenes cuenta? Regístrate ahora</a>
+                </form>
+            </div>                            
+        </div>
+    </div>
+</div>
+ 

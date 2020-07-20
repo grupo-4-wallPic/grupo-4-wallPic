@@ -1,0 +1,499 @@
+[
+    {
+        "id": 1,
+        "name": "OWL WITH LIGHT BLUE EYES",
+        "category": "animales",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/Buho.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 2,
+        "name": "ELEPHANT ON BLACK",
+        "category": "animales",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/elefante-en-fondo-negro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 3,
+        "name": "COUPLE OF DEERS",
+        "category": "animales",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/ciervos.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 4,
+        "name": "PORTRAIT OF A GIRAFFE",
+        "category": "animales",
+        "price":[590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/portaretrato-girafa.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 5,
+        "name": "LION ON BLACK",
+        "category": "animales",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/leon-en-fondo-negro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 6,
+        "name": "HIGHLAND COW",
+        "category": "animales",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/animales/vaca-de-cuernos-altos.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 7,
+        "name": "GIRL POSING",
+        "category": "arte",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/mujer-posando.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 8,
+        "name": "LOVERS IN THE WIND",
+        "category": "arte",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/caras-lovers.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 9,
+        "name": "HOLDING HANDS",
+        "category": "arte",
+        "price":[590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/manos-tomadas.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 10,
+        "name": "ABSTRACT GOLDEN ORGANIC",
+        "category": "arte",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/organico-oro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 11,
+        "name": "ABSTRACT GOLDEN TRIANGLE",
+        "category": "arte",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/triangulo-oro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 12,
+        "name": "ABSTRACT GOLDEN CIRCLE",
+        "category": "arte",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/arte/circulo-oro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 13,
+        "name": "PINK FLOWER IN LIGHT BLUE",
+        "category": "botanica",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/flor-rosa-en-agua.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 14,
+        "name": "PINK PEONIES",
+        "category": "botanica",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/peonias-rosas.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 15,
+        "name": "MINT FLOWER",
+        "category": "botanica",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/flor-de-menta.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 16,
+        "name": "PINK FLOWER IN LIGHT BLUE",
+        "category": "botanica",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/flor-rosa-en-agua.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 17,
+        "name": "SUCCULENT IN WATER",
+        "category": "botanica",
+        "price":[590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/suculentas-en-agua.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 18,
+        "name": "WHEAT CLOSE UP",
+        "category": "botanica",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/botanica/trigo-primer-plano.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 19,
+        "name": "DOWNTOWN BUENOS AIRES",
+        "category": "ciudades",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/downtown-buenos-aires.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 20,
+        "name": "REFLECTION IN THE WATER",
+        "category": "ciudades",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/reflejo-en-el-agua.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 21,
+        "name": "CANNALS OF VENICE",
+        "category": "ciudades",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/canales-de-venecia.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 22,
+        "name": "LOST IN NEW YORK",
+        "category": "ciudades",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/perdido-en-new-york.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 23,
+        "name": "TAKE ME TO PARIS",
+        "category": "ciudades",
+        "price":[590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/llevame-a-paris.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 24,
+        "name": "CHURCH AT OIA SANTORINI",
+        "category": "ciudades",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/ciudades/iglesia-en-santorini.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 25,
+        "name": "HAKUNA MATATA",
+        "category": "frases",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/frases/hakuna-matata.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 26,
+        "name": "NEW YORK CITY",
+        "category": "frases",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/frases/new-york-city.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 27,
+        "name": "DO YOU HAVE A NAME",
+        "category": "frases",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/frases/do-you-have-a-name.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 28,
+        "name": "LONDON",
+        "category": "frases",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/frases/london.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 29,
+        "name": "PRADA VERTICAL",
+        "category": "frases",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/frases/prada-vertical.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 30,
+        "name": "LOOKING FOR PARADISE",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/looking-for-paradise.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 31,
+        "name": "ONCE UPON A TIME",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/once-upon-a-time.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 32,
+        "name": "PALM TREE SUNSET",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/palm-tree-sunset.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 33,
+        "name": "RISE AND SHINE",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/rise-and-shine.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 35,
+        "name": "SEAGULLS BLACK AND WHITE",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/seagulls-black-and-white.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 36,
+        "name": "LONELY LODGE",
+        "category": "naturaleza",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"/images/naturaleza/lonely-lodge.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 31,
+        "name": "SET PINK BEDROOM",
+        "category": "sets-combinados",
+        "price": [1100,1878,3100,4439,5545],
+        "discount": 10,
+        "image":"/images/sets-combinados/paris-mas-peonias.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 32,
+        "name": "SET BETTER WITH YOU",
+        "category": "sets-combinados",
+        "price": [1100,1878,3100,4439,5545],
+        "discount": 10,
+        "image":"/images/sets-combinados/better-with-you.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 33,
+        "name": "MR ANDS MRS",
+        "category": "sets-combinados",
+        "price": [1100,1878,3100,4439,5545],
+        "discount": 10,
+        "image":"/images/sets-combinados/mr-and-mrs.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 34,
+        "name": "IT'S SO GOOD TO BE HOME",
+        "category": "sets-combinados",
+        "price": [1100,1878,3100,4439,5545],
+        "discount": 10,
+        "image":"/images/sets-combinados/its-so-good-to-be-home.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 35,
+        "name": "SET ABSTRACT ORGANIC",
+        "category": "sets-combinados",
+        "price": [1100,1878,3100,4439,5545],
+        "discount": 10,
+        "image":"/images/sets-combinados/abstract-organic.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 36,
+        "name": "SET WATER COLOR LEAVES",
+        "category": "sets-combinados",
+        "price": [1656, 2878, 3990, 5890, 7590],
+        "discount": 10,
+        "image":"/images/sets-combinados/water-color-leaves.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 37,
+        "name": "ELEPHANT ON BLACK",
+        "category": "Mostsale",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"elefante-en-fondo-negro.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 38,
+        "name": "LONELY LODGE",
+        "category": "Mostsale",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"lonely-lodge.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    },{
+        "id": 39,
+        "name": "OWL WITH LIGHT BLUE EYES",
+        "category": "Mostsale",
+        "price": [590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"Buho.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }, {
+        "id": 40,
+        "name": "SUCCULENT IN WATER",
+        "category": "Mostsale",
+        "price":[590,990,1590,2290,2990],
+        "discount": 10,
+        "image":"suculentas-en-agua.jpg",
+        "description": "Sumale Diseño a tu hogar con nuestro cuadros pensados para cada rincón de tu casa.\n\n Nuestros productos se entregan listos para colgar. Incluyen:\n\nLámina impresa en papel fotográfico brillante de alta calidad\nMarco de madera kiri (uno de los árboles mas sustentables del planeta)pintado en el color que vos elijas. Puede ser natural, blanco o negro.\nVidrio y fondo de mdf.\nAccesorios necesarios para colgar (clavos incluidos)\n\nNo esperes mas de lo que tenés que esperar, en 5 días hábiles lo tenés en tu casa. Consultá por envíos a todo el país.\n\n\n Hecho en Argentina",
+        "frameColor": ["Blanco", "Madera", "Negro" ],
+        "medidas": ["15 x 20", "20 x 30", "30 x 40", "40 x 55", "50 x 70", "70 x 100"]
+
+    }
+    
+]

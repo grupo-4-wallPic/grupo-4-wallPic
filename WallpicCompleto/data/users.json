@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "name": "renzo",
+  "lastname": "irusta",
+  "email": "renzoirusta22@hotmail.com",
+  "password": "$2a$10$5KdWQp9yl4Pa/bj8JKjNVuB4IGiAagHRgZ9lBkYys/Wjj7WPwX7/."
+ },
+ {
+  "id": 2,
+  "name": "Manuel",
+  "lastname": "Carossino",
+  "email": "manuelcarossino@me.com",
+  "password": "$2a$10$dqSozErAKGKod3Oz2DIOG./kdMM.RLIDsR0SzW8m.qd.wXhT.wcwq"
+ },
+ {
+  "id": 3,
+  "name": "Catalina",
+  "lastname": "Gelabert Bengtsson",
+  "email": "catagelabertb@gmail.com",
+  "password": "$2a$10$0Ey60UTaJ5o9Cg18ldr0YO7WtmnRVrOn8BpyL0NoYnbJnCXpRmdwy"
+ }
+]

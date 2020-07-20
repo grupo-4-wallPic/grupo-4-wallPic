@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+   <!-- Normalize -->
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div>
+        <%- include('./partials/header') %>
+        <br>
+        <br>
+        <br>
+        <section class="product-info">
+            <article class='imagenes'>
+            <div class='img-extra'>
+                <figure>
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
+                </figure>
+                <figure>
+                    <a href="#">
+                    <img src="<%= unProducto.image %> " alt=""> 
+                    </a>
+                </figure>
+            </div>
+            <div class='img-principal'>
+                <figure>
+                    <img src="<%= unProducto.image %>" alt="">
+                </figure>
+            </div>
+            <div class='seleccion'>
+            <div class='product-txt'>
+                <p><%= unProducto.name %> </p>
+                <h2>$<%= unProducto.price[0] %> </h2>
+                <p>Medios de pago</p>
+            </div>
+            <div class='tarjetas'>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+            </div>
+            <div class='dropdowns'>
+                <ul>
+                    <li><a href="#">Marco </a>
+                        <div class='sub-menu-1'>
+                            <ul>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[0] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[1] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.frameColor[2] %></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Tamaño</a>
+                        <div class='sub-menu-2'>
+                            <ul>
+                                <li class="active"><a href="#"><%= unProducto.medidas[0] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[1] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[2] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[3] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[4] %></a></li>
+                                <li class="active"><a href="#"><%= unProducto.medidas[5] %></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Cantidad</a>
+                        <div class='sub-menu-3'>
+                            <ul>
+                                <li class="active"><a href="#">1</a></li>
+                                <li class="active"><a href="#">2</a></li>
+                                <li class="active"><a href="#">3</a></li>
+                                <li class="active"><a href="#">4</a></li>
+                                <li class="active"><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class='add-to-cart'>Agregar al carrito</button>
+            </div>
+        </article>
+        </section>
+        <section class='descripcion'>
+            <h2 class='descripcion-header'>Sobre este producto</h2>
+            <article class='about'> <%= unProducto.description %> </article>
+            <h2 class='descripcion-footer'> <br> </h2>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class='related'>
+            <h2 class='descripcion-header'>Productos relacionados</h2>
+            <div>
+                <section class="prod-related">
+                    <figure class='img-related-1'>
+                        <img src="<%= unProducto.image %> " alt="">
+                    </figure>
+                    <figure class='img-related-2'>
+                        <img src="<%= unProducto.image %>" alt="">
+                    </figure>
+                    <figure class='img-related-3'>
+                        <img src="<%= unProducto.image %>" alt="">
+                    </figure>
+                </section>
+                <section class='txt-related'>
+                    <article class='txt-related-1'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                    <article class='txt-related-2'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                    <article class='txt-related-3'>
+                        <p><%= unProducto.name %> </p>
+                        <h2>$ <%= unProducto.price[0] %> </h2>
+                        <button class='add-to-cart'>Agregar al carrito</button>
+                    </article>
+                </section>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
+
+
+
+
+
+        <%- include('./partials/footer') %>  
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorias</title>
+    <%- include('./partials/head') %> 
+</head>
+<body>
+    <div class="contenedor">
+        <%- include('./partials/header') %>
+        <div class='categoria'>
+            <h2>Animales</h2>
+        </div>
+        <div class='todo'>
+        <% animales.forEach(product => { %>
+            <div class="prod">
+				<section class="product">
+                    <a class="link" href="/products/<%= product.id %>">
+                        <div class='desvanecer'>
+                        <div class='img-container'>
+						<figure class="image">
+							<img src="<%= product.image %>" alt="imagen de <%= product.name %>">
+                        </figure>
+                        </div>  
+						<article class="product-box">
+                            <h2 class="nombre"><%= product.name %> </h2>
+							<p class="precio"> $<%= product.price[0] %> - $<%= product.price[4] %> </p>
+                        </article>
+                        </div>
+                    </a>
+				</section>
+			</div>
+        <% }); %> 
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <%- include('./partials/footer') %>  
+    </div>
+</body>
+</html>
